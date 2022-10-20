@@ -166,19 +166,20 @@ inquirer
 }, 
 ])
 
-.then((response) => {
-    writeToFile('log.md', response );
-    
-}
-)
-
-
 ];
 
 //  /* Legacy way: with this.async */
 //  validate: function (input) {
 //     // Declare function as asynchronous, and save the done callback
 //     const done = this.async();
+
+
+inquirer.prompt(questions).then((response) => {
+    writeToFile('log.md', response );
+    
+}
+)
+
 
 
 // TODO: Create a function to write README file

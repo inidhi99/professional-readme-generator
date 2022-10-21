@@ -27,8 +27,8 @@ const questions = [
 // email address 
 {
     type: "input",
-    name: "email ",
-    message: "What is your email address  ?",
+    name: "email",
+    message: "What is your email address ?",
     validate: emailInput => {
         if (emailInput) {
             return true;
@@ -80,30 +80,30 @@ const questions = [
         }
     }
 }, 
-// usage ????
+// usage 
 {
     type: "input",
     name: "usage",
-    message: "Enter your project description ?",
+    message: "Enter your project usage ?",
     validate: usageInput  => {
         if (usageInput) {
             return true;
         } else {
-            console.log('please enter project description to continue');
+            console.log('please enter project usage');
             return false;
         }
     }
 }, 
-// Contributing ????
+// Contribution 
 {
     type: "input",
     name: "Contribution",
-    message: "Enter your project description ?",
+    message: "Enter your project contribution/contributers ?",
     validate: contributingInput => {
         if (contributingInput) {
             return true;
         } else {
-            console.log('please enter project description to continue');
+            console.log('please enter project contribution/contributers');
             return false;
         }
     }
@@ -164,13 +164,7 @@ const questions = [
 }, 
 ];
 
-//  /* Legacy way: with this.async */
-//  validate: function (input) {
-//     // Declare function as asynchronous, and save the done callback
-//     const done = this.async();
-
-
-// TODO: Create a function to write README file
+// function to write README file
 function writeToFile(fileName, data){
     fs.writeFile(fileName, generateMarkdown(data), (err)=> {
         if (err) {
@@ -182,7 +176,7 @@ function writeToFile(fileName, data){
 }
 
 
-// TODO: Create a function to initialize app
+// function to initialize app
 function init() {
     inquirer.prompt(questions).then((data) => {
         console.log(generateMarkdown(data));
@@ -195,3 +189,11 @@ function init() {
 
 // Function call to initialize app
 init();
+
+
+
+
+//  /* Legacy way: with this.async */
+//  validate: function (input) {
+//     // Declare function as asynchronous, and save the done callback
+//     const done = this.async();

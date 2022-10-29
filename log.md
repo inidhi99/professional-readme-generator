@@ -1,25 +1,25 @@
 
   
 ## Email
-nidhipatel@gmail.com
+inidhi99@gmail.com
 
 # title
-the readme generator 
+the readme generator
 
 ## Description
-simplest way to create readme
+simplest way to create it 
 
 ## Installation
 npm
 
 ## Usage
-create readme
+creared readme 
 
 ## Contribution 
-n.a
+n/a
 
 ## Tests
-npm
+npm 
 
 ## License
 The MIT License

@@ -1,4 +1,4 @@
-# professional-readme-generator
+<!-- # professional-readme-generator
 
 
 
@@ -26,4 +26,7 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
 #mockup 
-![](Develop/assets/Screen%20Shot%202022-10-20%20at%209.44.02%20PM.png)
+![](Develop/assets/Screen%20Shot%202022-10-20%20at%209.44.02%20PM.png) -->
+
+
+

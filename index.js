@@ -2,7 +2,7 @@
 const fs = require("fs");
 // inquirer variable 
 const inquirer = require("inquirer");
-// connecting it to generateMarkdown.js
+// connecting it to generateMarkdown.js (import)
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // validate property checks the user input 
@@ -150,23 +150,17 @@ function writeToFile(fileName, data){
         }
     });
 }
-
-
 // function to initialize app
 function init() {
     inquirer.prompt(questions).then((data) => {
         console.log(generateMarkdown(data));
     
         writeToFile("log.md", data);
-    
     })
-
 }
 
 // Function call to initialize app
 init();
-
-
 
 
 //  /* Legacy way: with this.async */

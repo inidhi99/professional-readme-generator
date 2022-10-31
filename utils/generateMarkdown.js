@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// function that returns a license badge and link based on which license is passed in and If there is no license, return an empty string
 function renderLicenseLink(license) {
   let licenseLink = " "
 if (license === "Apache 2.0 License"){
@@ -11,28 +10,12 @@ licenseLink = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.
 } else {
   licenseLink = " "
 }
-return licenseLink
-  
+return licenseLink 
 }
 
-// TODO: Create a function that returns the license link
-// // If there is no license, return an empty string
-// function renderLicenseLink(license) {
-
-// }
-
-// // TODO: Create a function that returns the license section of README
-// // If there is no license, return an empty string
-// function renderLicenseSection(license) {
-// // if (data.license)
-// }
-
-
-// TODO: Create a function to generate markdown for README
-// TODO: hyperlinks for table of content 
+//function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  
 #readme table of content 
 
 1. [Email] (#Email)
@@ -80,6 +63,5 @@ ${renderLicenseLink(data.license)}
 `;
 }
 
-
-//storeed variables and object that been used in index.js
+//stored variables and object that been used in index.js (export)
 module.exports = generateMarkdown;

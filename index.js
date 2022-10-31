@@ -1,4 +1,3 @@
-// TODO: Include packages needed for this application
 // fs is a Node standard library package for reading and writing files
 const fs = require("fs");
 // inquirer variable 
@@ -6,11 +5,9 @@ const inquirer = require("inquirer");
 // connecting it to generateMarkdown.js
 const generateMarkdown = require('./utils/generateMarkdown');
 
-
-// TODO: Create an array of questions for user input
 // validate property checks the user input 
 const questions = [
-// github usernmae 
+// github username 
 {
     type: "input",
     name: "username", 

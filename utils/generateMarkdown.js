@@ -16,47 +16,43 @@ return licenseLink
 //function to generate markdown for README
 function generateMarkdown(data) {
   return `
-#readme table of content 
+#Table of Content 
+[Username](#username) <br>
+[Email](#email)  <br>
+[Title](#title) <br>
+[Description](#description) <br>
+[Installation](#installation) <br>
+[Usage](#usage) <br>
+[Contribution](#contribution) <br>
+[Tests](#tests)  <br>
+[License](#license)
 
-1. [Email] (#Email)
-2. [title] (#Title)
-3. [Description] (#Description)
-4. [Installation] (#Installation)
-5. [Usage] (#Usage)
-6. [Contribution] (#Contribution)
-7. [Tests] (#Tests)
-8. [License] (#License)
 
-<a name = "Email"></a> 
-## 1. Email
-${data.email}
+## Username
+<a href="https://github.com/${data.username}"> ${data.username} </a> 
 
-<a name = "Title"></a> 
-## 2. Title
+## Email
+<a href="mailto:${data.email}?subject=SweetWords"> ${data.email} </a> 
+
+## Title
 ${data.title}
 
-<a name = "Description"></a> 
-## 3. Description
+## Description
 ${data.description}
 
-<a name = "Installation"></a> 
-## 4. Installation
+## Installation
 ${data.installation}
 
-<a name = "Usage"></a> 
-## 5. Usage
+## Usage
 ${data.usage}
 
-<a name = "Contribution"></a> 
-## 6. Contribution 
+## Contribution 
 ${data.Contribution}
 
-<a name = "Tests"></a> 
-## 7. Tests
+## Tests
 ${data.tests}
 
-<a name = "License"></a> 
-## 8. License
+## License
 ${data.license}
 
 ${renderLicenseLink(data.license)}

@@ -1,46 +1,43 @@
-  
-# readme table of content 
 
-1. [ Email. ](#email)
-2. [ Title. ](#Title)
-3. [ Description. ](#Description)
-4. [ Installation. ](#Installation)
-5. [ Usage. ](#usage)
-6. [ Contribution. ](#Contribution)
-7. [ Tests. ](#Tests)
-8. [ License. ](#License)
+#Table of Content 
+[Username](#username) <br>
+[Email](#email)  <br>
+[Title](#title) <br>
+[Description](#description) <br>
+[Installation](#installation) <br>
+[Usage](#usage) <br>
+[Contribution](#contribution) <br>
+[Tests](#tests)  <br>
+[License](#license)
 
 
-<a name = "email"></a> 
-## 1. Email
-i
+## Username
+<a href="https://github.com/inidhi99"> inidhi99 </a> 
 
-<a name = "Title"></a> 
-## 2. Title
-i
 
-<a name = "Description"></a> 
-## 3. Description
-i
+inidhi99
+## Email
+<a href="mailto:inihdi999?subject=SweetWords"> inihdi999 </a> 
 
-<a name = "Installation"></a> 
-## 4. Installation
-i
+## Title
+fheifhwi
 
-<a name = "Usage"></a> 
-## 5. Usage
-i
+## Description
+fhiwhfw
 
-<a name = "Contribution"></a> 
-## 6. Contribution 
-i
+## Installation
+f
 
-<a name = "Tests"></a> 
-## 7. Tests
-i
+## Usage
+j
 
-<a name="License"></a> 
-## 8. License
-The zlib/libpng License
+## Contribution 
+jfe
 
-[![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)
+## Tests
+e
+
+## License
+Apache 2.0 License
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)

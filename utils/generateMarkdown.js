@@ -16,7 +16,7 @@ return licenseLink
 //function to generate markdown for README
 function generateMarkdown(data) {
   return `
-#Table of Content 
+# Table of Content 
 [Username](#username) <br>
 [Email](#email)  <br>
 [Title](#title) <br>

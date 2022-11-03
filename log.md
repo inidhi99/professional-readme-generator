@@ -1,5 +1,5 @@
 
-#Table of Content 
+# Table of Content 
 [Username](#username) <br>
 [Email](#email)  <br>
 [Title](#title) <br>
@@ -14,30 +14,28 @@
 ## Username
 <a href="https://github.com/inidhi99"> inidhi99 </a> 
 
-
-inidhi99
 ## Email
-<a href="mailto:inihdi999?subject=SweetWords"> inihdi999 </a> 
+<a href="mailto:nihanaptel99@gmail.com?subject=SweetWords"> nihanaptel99@gmail.com </a> 
 
 ## Title
-fheifhwi
+professional readme
 
 ## Description
-fhiwhfw
+creating readme using command line
 
 ## Installation
-f
+npm
 
 ## Usage
-j
+quickest way to create readme
 
 ## Contribution 
-jfe
+n/a
 
 ## Tests
-e
+npm
 
 ## License
-Apache 2.0 License
+The MIT License
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

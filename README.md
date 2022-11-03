@@ -29,5 +29,5 @@ THEN I am taken to the corresponding section of the README
 ```
  
 ## Visual Presentaion of the Readme Generator 
-[label](assets/Screen%20Recording%202022-11-03%20at%205.01.15%20PM.mov)
+https://drive.google.com/file/d/1g5KrClDisXlgCu9yE9C5KQZA27p6n2Ra/view
 

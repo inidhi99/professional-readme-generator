@@ -15,19 +15,19 @@
 <a href="https://github.com/inidhi99"> inidhi99 </a> 
 
 ## Email
-<a href="mailto:nihanaptel99@gmail.com?subject=SweetWords"> nihanaptel99@gmail.com </a> 
+<a href="mailto:nihanpatel99@gmail.com?subject=SweetWords"> nihanpatel99@gmail.com </a> 
 
 ## Title
-professional readme
+professional readme 
 
 ## Description
-creating readme using command line
+creating readme using command line 
 
 ## Installation
 npm
 
 ## Usage
-quickest way to create readme
+quickest way to create readme 
 
 ## Contribution 
 n/a
